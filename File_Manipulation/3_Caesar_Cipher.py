@@ -5,10 +5,7 @@ key = 5
 f = open("encoded.txt", "w")
 
 while True:
-	try:
-		char = input("Enter a letter: ")
-	except:
-		print("a")
+	char = input("Enter a letter: ")
 
 	if len(char) != 1:
 		break
